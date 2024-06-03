@@ -1,10 +1,11 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
+  import Dashboard from "./lib/Dashboard.svelte";
+  import Profil from "./lib/Profil.svelte";
 </script>
 
-<main>
-  
+<main class="">
+  <Dashboard />
+  <Profil />
 </main>
 
 <style>
