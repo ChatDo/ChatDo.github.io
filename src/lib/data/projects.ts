@@ -13,11 +13,27 @@ export const items: Array<Project> = [
 		logo: Assets.Flutter,
 		name: 'Prod-Manager',
 		period: {
-			from: new Date(),
-			to: new Date()
+			from: new Date(2022, 12, 18),
+			to: new Date(2023, 6, 11)
 		},
-		skills: getSkills('flutter', 'js'),
+		skills: getSkills('flutter', 'js', 'postgres'),
 		type: 'Service',
+	},
+	{
+		name: 'Article-Scanner',
+		slug: 'article-scanner',
+		color: '#ff3e00',
+		description: 'Application that get the price of an article from a server',
+		shortDescription:
+			'Application that get the price of an article from a server',
+		links: [{ to: 'https://github.com/ChatDo', label: 'GitHub' }],
+		logo: Assets.Flutter,
+		period: {
+			from: new Date(2024, 3, 20),
+			to: new Date(2024, 5, 30),
+		},
+		skills: getSkills('flutter'),
+		type: 'Application'
 	},
 	{
 		name: 'SatisfactionZ',
@@ -30,7 +46,8 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/ChatDo', label: 'GitHub' }],
 		logo: Assets.Flutter,
 		period: {
-			from: new Date()
+			from: new Date(2023, 8, 15),
+			to: new Date()
 		},
 		skills: getSkills('flutter', 'ts', 'postgres'),
 		type: 'Service',
@@ -45,7 +62,8 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://github.com/ChatDo', label: 'GitHub' }],
 		logo: Assets.Svelte,
 		period: {
-			from: new Date()
+			from: new Date(2023, 8, 1),
+			to: new Date()
 		},
 		skills: getSkills('svelte', 'ts'),
 		type: 'Master Project',

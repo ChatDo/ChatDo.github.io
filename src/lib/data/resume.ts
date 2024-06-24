@@ -1,3 +1,3 @@
-export const data = open("static/doc/resume.pdf").read();
+export const data = "";
 
 export const title = 'Resumé';

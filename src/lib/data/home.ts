@@ -10,9 +10,7 @@ export const lastName = 'Julie';
 export const nickname = 'ChatDo';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit.' +
-	'Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos?' +
-	'Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'Actually doing my last year at EPITECH, I\'m a Tech enthousiast who enjoys coding and gaming !';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/ChatDo' },

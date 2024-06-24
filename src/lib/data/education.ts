@@ -3,28 +3,28 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
-		description: '',
-		location: 'Tunisia',
+		degree: 'Expert in Information Technology Title',
+		description: 'Expert in Information Technology Title',
+		location: 'France',
 		logo: Assets.Unknown,
-		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		name: 'Expert in Information Technology',
+		organization: 'EPITECH',
+		period: { from: new Date(2020, 0, 1), to: new Date(2025, 5, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'master-epitech',
+		subjects: ['C', 'Algorithm', 'Python', 'C++', 'JavaScript', 'English', 'System Administration', 'DevOps', 'Flutter']
 	},
 	{
-		degree: 'PhD of Computer Science',
-		description: '',
-		location: 'USA',
+		degree: 'DHBW International Student Program - Business',
+		description: 'DHBW ISP in Business',
+		location: 'Germany',
 		logo: Assets.Unknown,
-		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		name: 'DHBW ISP',
+		organization: 'Duale Hochschule Baden-Württemberg',
+		period: { from: new Date(2023, 9, 1), to: new Date(2024, 7, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'dhbw-business',
+		subjects: ['Marketing', 'Digital Communication', 'ITSM', 'International Marketing', 'Team Leading', 'Human Resources Management']
 	}
 ];
 
