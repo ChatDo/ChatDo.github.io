@@ -1,14 +1,9 @@
-import { defineConfig } from 'vite'
-import { svelte } from '@sveltejs/vite-plugin-svelte'
+import { sveltekit } from '@sveltejs/kit/vite';
+import type { UserConfig } from 'vite';
+import UnoCSS from 'unocss/vite';
 
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [svelte()],
-  server: {
-    port: 4444,
-    open: true,
-    watch: {
-        usePolling: true
-    }
-  }
-})
+const config: UserConfig = {
+	plugins: [UnoCSS(), sveltekit()]
+};
+
+export default config;
