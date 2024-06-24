@@ -24,7 +24,7 @@ const config = {
 			'@utils': './src/lib/utils'
 		},
 		paths: {
-			base: base
+			base: ''
 		}
 	}
 };
